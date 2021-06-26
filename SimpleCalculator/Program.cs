@@ -18,6 +18,7 @@ namespace SimpleCalculator
             Calculations obj = new Calculations();
             result = obj.Calculate(operation,num1,num2);
             Console.WriteLine("The result is " + result);
+            Console.Writeline("Thanks for using");
 
 
         }
